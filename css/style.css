@@ -1,0 +1,74 @@
+*{
+	margin: 0;padding: 0;
+}
+/*主页样式*/
+.bg1{
+	background: url("../img/2.jpg") no-repeat;
+}
+.title{
+	font-size:32px;
+	text-align:center;
+	color:#000;
+	margin:50px 0 100px;
+	letter-spacing:5px;
+}
+.btnBox{
+	width: 500px;
+	margin: 0 auto;
+}
+.btnBox a,.infoBox .close{
+	display: block;
+	width: 150px;
+	height: 40px;
+	line-height:40px;
+	margin-top:50px;
+	text-align:center;
+	text-decoration: none;
+	color: black;
+	/*margin:100px ;*/
+	border:#75db31 solid 2px;
+	border-radius:7px; 
+	box-shadow: 0 0 0 2px #fff inset;
+	background: linear-gradient(180deg,#eef8e8,#67c330);
+	font-size:20px;
+}
+.btnBox a:hover{
+	border:#afeb85 ;
+	background: linear-gradient(180deg,#fff,#afeb85);
+}
+/*游戏弹框*/
+.infoBox{
+	position:absolute;
+	padding:20px;
+	width:480px;
+	height:500px;
+	line-height:1.6;
+	font-size:16px;
+	color:#000;
+	background:#fff;
+	z-index:9;
+	left:50%;
+	top:50%;
+	margin:-270px 0 0 -240px;
+}
+.infoText{
+	height:400px;
+	overflow:auto;
+}
+.infoBox .close{
+	margin-left:150px;
+	border-color:#3d92b6;
+	background:linear-gradient(180deg,#ecf6f9,#59acd0);
+}
+.infoBox .close:hover{
+	border-color:#6fb4d0;
+	background:linear-gradient(180deg,#fff,#97cbe1);
+}
+.showBox{
+	position: absolute;
+	background: #000;
+	left:0;
+	top:0;
+	opacity: 0.8;
+	z-index: 8;
+}
